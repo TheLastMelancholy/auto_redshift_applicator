@@ -1,0 +1,6 @@
+[Unit]
+Description=Auto redshift screen adjustment
+[Service]
+User=alice
+Environment=DISPLAY=:0
+ExecStart="/mnt/X/WORKSHOP/AutoRedshift/run_script.sh"

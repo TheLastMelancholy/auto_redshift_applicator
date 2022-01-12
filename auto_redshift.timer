@@ -1,0 +1,7 @@
+[Unit]
+Description=Adjust screen color temperature
+[Timer]
+OnBootSec=50
+OnCalendar=*:0/5
+[Install]
+WantedBy=timers.target
